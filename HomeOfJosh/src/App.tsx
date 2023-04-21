@@ -1,8 +1,8 @@
+import Spline from '@splinetool/react-spline';
+
 const App = () => (
-  <div className="min-h-screen flex justify-center items-center">
-    <h1 className="text-3xl font-bold text-blue-600">
-      Hello World! 🔥
-    </h1>
+  <div className="max-h-screen flex justify-center items-center">
+    <Spline scene="https://prod.spline.design/7WKjeJj6RzXQxMSC/scene.splinecode" />
   </div>
 );
 
